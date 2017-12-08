@@ -1,0 +1,36 @@
+<div class="ui segment vertical basic mp-activity-container" data-activity-context="{{ context }}"  single="{% if singleView is defined %} 1 {% else %} 0 {% endif %}"}>
+
+	{% if userLoggedIn and not disablePostForm %}
+		{% include '@activity/partials/activity-post-form.twig' %}
+	{% endif %}
+	
+	<div class="mp-activity-list ">
+		{% include '@activity/partials/activities.twig' with {'activities': activities} %}
+	</div>
+	
+	<div class="ui message no-activities" {% if activities %}style="display: none"{% endif %}>{{ translate('There\'s no any activity yet') }}</div>
+
+	<div class="ui basic segment activity-loader" style="display: none">
+		<div class="ui active loader"></div>
+	</div>
+	
+	<script id="image-attachment-template" type="text/html">
+		<div class="mp-attachment-image">
+			<img class="ui image">
+			<div class="mp-attachment-image-overlay"></div>
+			<div class="mp-progress-bar">
+				<div class="ui tiny indicating progress active">
+					<div class="bar" style="width: 1%; transition-duration: 300ms;"></div>
+				</div>
+			</div>
+			<i class="close icon"></i>
+		</div>
+	</script>
+
+</div>
+
+{% include '@activity/partials/activity-gallery-modal.twig' %}
+{% include '@activity/partials/activity-report-modal.twig' %}
+{{ environment.dispatcher.dispatch('activity.view.galleryModal') }}
+{{ environment.dispatcher.dispatch('activity.view.sliderModal') }}
+{{ environment.dispatcher.dispatch('activity.view.googleMapsModal') }}

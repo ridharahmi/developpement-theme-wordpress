@@ -1,0 +1,265 @@
+body {
+    /* background-color: #eee;*/
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+nav .navbar-brand {
+    padding: 12px 50px;
+}
+
+nav .navbar-brand img {
+    width: 100px;
+    height: 25px;
+}
+
+.homepage img {
+    width: 100%;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.img-serv {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.main-post {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px
+}
+
+.main-post h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+.main-post .post-author,
+.main-post .post-date,
+.main-post .post-comments {
+    font-size: 12px;
+}
+
+.home-page .main-post .img-blog {
+    height: 220px;
+}
+
+.main-post .img-feat {
+    display: block;
+    margin: 10px 0 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.main-post .post-content {
+    line-height: 1.7;
+    color: #888;
+}
+
+.main-post i {
+    color: #FF9800;
+}
+
+.post-pagination a {
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-decoration: initial;
+
+}
+
+.post-pagination a:first-of-type {
+    margin-right: 3px;
+}
+
+.post-pagination .dis {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.single-page .main-post {
+    position: relative;;
+}
+
+.single-page .main-post .post-edit-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px;
+    border: 1px solid #ddd;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.single-page .post-pagination a:first-child {
+    float: left;
+}
+
+.single-page .post-pagination a:last-child {
+    float: right;
+}
+
+.list-comment ul {
+    list-style-type: none;
+}
+
+.list-comment .photo {
+    border-radius: 50%;
+}
+
+.list-comment .comment .says {
+    display: none;
+}
+
+.list-comment .comment .commentmetadata {
+    padding-left: 33px;
+    margin-top: -5px;
+    font-size: 11px;
+}
+
+.list-comment .comment p {
+    padding-left: 30px;
+}
+
+.list-comment .comment .reply {
+    float: right;
+}
+
+.com-post h5 {
+    border: 1px solid #ddd;
+    padding: 15px 15px;
+    color: red;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 13px;
+    background: #eee;
+}
+
+.comment-respond label {
+    display: block;
+}
+
+.comment-respond input[type="text"],
+.comment-respond textarea {
+    width: 350px;
+    border: 1px solid #aaa;
+    padding: 5px 7px;
+}
+
+.widget-content {
+    background: #fff;
+    padding: 10px 7px;
+    border: 1px solid #aaa;
+    margin: 0 0 15px;
+}
+
+.bypostauthor {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.cat {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #aaa;
+    font-family: monospace;
+}
+
+.img-cat {
+    height: 300px;
+}
+
+.widget {
+    border: 1px solid #aaa;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.widget h3 {
+    background-color: #03A9F4;
+    margin: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.widget .widget-content {
+    padding: 15px;
+}
+
+.about .img-personne {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about .thumbnail {
+    border: none;
+}
+
+.about .carousel-slider__item img {
+    width: 120px !important;
+    height: 100px !important;
+}
+
+.page-404 {
+    padding: 128px 0;
+}
+
+.contact .list-social-icons a {
+    color: #999;
+}
+
+.contact .list-social-icons a:hover {
+    color: #0A246A;
+}
+
+.service .carousel-control {
+    border: 1px solid #fff;
+    height: 52px;
+    width: 50px;
+    top: 40%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.service .carousel-control span {
+    margin-top: -15px;
+    color: #eee;
+}
+
+.service .carousel-inner .item img {
+    width: 100%;
+}
+
+/* footer*/
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    /*position: fixed;*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer ul > li > a {
+    color: #fff;
+}
+
+.footer li.active a {
+    color: red;
+}

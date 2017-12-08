@@ -1,0 +1,261 @@
+# Translation of Plugins - WP-PostViews - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP-PostViews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-31 03:31:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP-PostViews - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin/theme
+msgid "Enables you to display how many times a post/page had been viewed."
+msgstr "Vous permet d'afficher combien de fois un article/une page a été vu."
+
+#: wp-postviews.php:953
+msgid "* If you are not using any category statistics, you can ignore it."
+msgstr "* Si vous n'utilisez aucune statistique de catégorie, vous pouvez ignorer ceci."
+
+#: wp-postviews.php:949
+msgid "Category IDs:"
+msgstr "IDs des catégories&nbsp;:"
+
+#: wp-postviews.php:946
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong> pour désactiver."
+
+#: wp-postviews.php:945
+msgid "Maximum Post Title Length (Characters):"
+msgstr "Longueur maximale du titre de l'article (caractères)&nbsp;:"
+
+#: wp-postviews.php:942
+msgid "No. Of Records To Show:"
+msgstr "Nombre d'enregistrements à afficher&nbsp;:"
+
+#: wp-postviews.php:935
+msgid "%s Only"
+msgstr "%s seulement"
+
+#: wp-postviews.php:932
+msgid "All"
+msgstr "Tous"
+
+#: wp-postviews.php:930
+msgid "Include Views From:"
+msgstr "Inclure les vues de&nbsp;:"
+
+#: wp-postviews.php:925
+msgid "Most Viewed By Category"
+msgstr "Les plus vus par catégorie"
+
+#: wp-postviews.php:924
+msgid "Most Viewed"
+msgstr "Les plus vus"
+
+#: wp-postviews.php:922
+msgid "Least Viewed By Category"
+msgstr "Les moins vus par catégorie"
+
+#: wp-postviews.php:921
+msgid "Least Viewed"
+msgstr "Les moins vus"
+
+#: wp-postviews.php:919
+msgid "Statistics Type:"
+msgstr "Type de statistiques&nbsp;:"
+
+#: wp-postviews.php:916
+msgid "Title:"
+msgstr "Titre :"
+
+#: wp-postviews.php:855
+msgid "WP-PostViews views statistics"
+msgstr "Statistiques des vues de WP-PostViews"
+
+#: wp-postviews.php:806 wp-postviews.php:856 wp-postviews.php:904
+msgid "Views"
+msgstr "Vues"
+
+#: wp-postviews.php:747
+msgid "<strong>%s</strong> view was generated."
+msgid_plural "<strong>%s</strong> views were generated."
+msgstr[0] "<strong>%s</strong> vue a été générée."
+msgstr[1] "<strong>%s</strong> vues ont été générées."
+
+#: wp-postviews.php:733 wp-postviews.php:735 wp-postviews.php:765
+msgid "%s Most Viewed Page"
+msgid_plural "%s Most Viewed Pages"
+msgstr[0] "%s page la plus vue"
+msgstr[1] "%s pages les plus vues"
+
+#: wp-postviews.php:728 wp-postviews.php:730 wp-postviews.php:759
+msgid "%s Most Viewed Post"
+msgid_plural "%s Most Viewed Posts"
+msgstr[0] "%s article le plus vu"
+msgstr[1] "%s articles les plus vus"
+
+#. #-#-#-#-#  tmp-wp-postviews.pot (WP-PostViews 1.75)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-postviews.php:715 wp-postviews.php:717 wp-postviews.php:745
+msgid "WP-PostViews"
+msgstr "WP-PostViews"
+
+#: wp-postviews.php:282 wp-postviews.php:343 wp-postviews.php:405
+#: wp-postviews.php:467 wp-postviews.php:528 wp-postviews.php:590
+msgid "N/A"
+msgstr "N/D"
+
+#: wp-postviews.php:43
+msgid "PostViews"
+msgstr "PostViews"
+
+#: postviews-options.php:204
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: postviews-options.php:198
+msgid "Don't display on other pages"
+msgstr "Ne pas afficher sur les autres pages"
+
+#: postviews-options.php:193
+msgid "Other Pages:"
+msgstr "Autres pages&nbsp;:"
+
+#: postviews-options.php:188
+msgid "Don't display on search pages"
+msgstr "Ne pas afficher sur les pages de recherche"
+
+#: postviews-options.php:183
+msgid "Search Pages:"
+msgstr "Pages de recherche&nbsp;:"
+
+#: postviews-options.php:178
+msgid "Don't display on archive pages"
+msgstr "Ne pas afficher sur les pages d'archive"
+
+#: postviews-options.php:173
+msgid "Archive Pages:"
+msgstr "Pages d'archive&nbsp;:"
+
+#: postviews-options.php:168
+msgid "Don't display on pages"
+msgstr "Ne pas afficher sur les pages :"
+
+#: postviews-options.php:163
+msgid "Pages:"
+msgstr "Pages :"
+
+#: postviews-options.php:158
+msgid "Don't display on single posts"
+msgstr "Ne pas afficher sur les articles"
+
+#: postviews-options.php:153
+msgid "Single Posts:"
+msgstr "Articles&nbsp;:"
+
+#: postviews-options.php:148
+msgid "Don't display on home page"
+msgstr "Ne pas afficher sur la page d’accueil"
+
+#: postviews-options.php:147 postviews-options.php:157
+#: postviews-options.php:167 postviews-options.php:177
+#: postviews-options.php:187 postviews-options.php:197
+msgid "Display to registered users only"
+msgstr "Afficher pour les utilisateurs enregistrés uniquement"
+
+#: postviews-options.php:146 postviews-options.php:156
+#: postviews-options.php:166 postviews-options.php:176
+#: postviews-options.php:186 postviews-options.php:196
+msgid "Display to everyone"
+msgstr "Afficher pour tout le monde"
+
+#: postviews-options.php:143
+msgid "Home Page:"
+msgstr "Page d'accueil :"
+
+#: postviews-options.php:140
+msgid "These options specify where the view counts should be displayed and to whom. \tBy default view counts will be displayed to all visitors. Note that the theme files must contain a call to <code>the_views()</code> in order for any view count to be displayed."
+msgstr "Ces options indiquent où les compteurs de vue doivent être affichés et pour qui. \t Par défaut les compteurs s'afficheront pour tous les visiteurs. Notez que les fichiers de thème doivent d'abord contenir un appel à <code>the_views()</code> pour n'importe quel nombre de vue à afficher."
+
+#: postviews-options.php:139
+msgid "Display Options"
+msgstr "Options d'affichage"
+
+#: postviews-options.php:120
+msgid "Most Viewed Template:"
+msgstr "Modèle pour les lus vus :"
+
+#: postviews-options.php:112 postviews-options.php:132
+msgid "Restore Default Template"
+msgstr "Rétablir le modèle par défaut :"
+
+#: postviews-options.php:109 postviews-options.php:121
+msgid "Allowed Variables:"
+msgstr "Variables autorisées :"
+
+#: postviews-options.php:108
+msgid "Views Template:"
+msgstr "Modèles de vues :"
+
+#: postviews-options.php:99
+msgid "You have caching enabled for your WordPress installation, by default WP-PostViews will use AJAX to update the view count. However in some cases, you might not want it."
+msgstr "Le cache est activé sur votre installation WordPress, par défaut WP-PostViews va utiliser AJAX pour mettre à jour le nombre de vues. Toutefois dans certains cas, ce n'est peut-être pas ce que vous souhaitez."
+
+#: postviews-options.php:92
+msgid "Use AJAX To Update Views:"
+msgstr "Utiliser Ajax pour mettre à jour les vues :"
+
+#: postviews-options.php:86 postviews-options.php:96
+msgid "Yes"
+msgstr "Oui"
+
+#: postviews-options.php:85 postviews-options.php:95
+msgid "No"
+msgstr "Non"
+
+#: postviews-options.php:82
+msgid "Exclude Bot Views:"
+msgstr "Exclure les vues des robots"
+
+#: postviews-options.php:77
+msgid "Registered Users Only"
+msgstr "Utilisateurs enregistrés uniquement"
+
+#: postviews-options.php:76
+msgid "Guests Only"
+msgstr "Visiteurs uniquement"
+
+#: postviews-options.php:75
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: postviews-options.php:72
+msgid "Count Views From:"
+msgstr "Compter les vues de :"
+
+#: postviews-options.php:58 wp-postviews.php:984
+msgid "views"
+msgstr "vues"
+
+#: postviews-options.php:55 wp-postviews.php:983
+msgid "%VIEW_COUNT% views"
+msgstr "%VIEW_COUNT% vues"
+
+#: postviews-options.php:38
+msgid "No Post Views Option Updated"
+msgstr "Aucune option de Post Views mise à jour"
+
+#: postviews-options.php:33
+msgid "Updated"
+msgstr "Mise à jour"
+
+#: postviews-options.php:28 postviews-options.php:69
+msgid "Post Views Options"
+msgstr "Option de Post Views"
